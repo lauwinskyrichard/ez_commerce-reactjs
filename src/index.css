@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,155 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbarContainer {
+  margin-right: 40px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.brandTxt {
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.userTxt {
+  font-weight: normal;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.userIcon {
+  cursor: pointer;
+}
+
+.title {
+  display: block;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.author {
+  display: block;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bookCard {
+  border-radius: 8px;
+}
+
+.imgContainer {
+  max-height: 180px;
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  object-fit: scale-down;
+  max-width: 100%;
+  height: auto;
+}
+
+.desc {
+  height: 160px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.desc:hover {
+  overflow-y: visible;
+}
+
+.cartBtnContainer {
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.bookType {
+  margin-top: -10px;
+  display: block;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.priceContainer {
+  padding: 8px 8px 0 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fw-bold {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.outerContainer {
+  margin-top: 24px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.outerContainer .con1 h4 {
+  font-size: large;
+}
+
+.con1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outerContainer .con1 .total {
+  font-size: x-large;
+}
+
+.con2 {
+  width: 100px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con3 {
+  width: 120px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemPcsTxt {
+  margin: 12px;
+}
+
+.purchaseContainer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.purchaseBtn {
+  width: 100%;
+}
+
+.cartIcon {
+  margin-right: 16px;
 }
